@@ -50,7 +50,7 @@ function Hero() {
             Travel, <span className="relative inline-block w-auto md:w-[200px] lg:w-[280px] xl:w-[350px]">
               enjoy
               <img 
-                src="/Images/Decore2.png" 
+                src={`${process.env.PUBLIC_URL}/Images/Decore2.png`}
                 alt="" 
                 className="absolute bottom-0 left-0 w-full sm:w-[300px] md:w-[600px] lg:w-[800px] xl:w-[1005px] h-auto -z-10"
               />
@@ -81,7 +81,7 @@ function Hero() {
         {/* Mobile-only traveller image */}
         <div className="block md:hidden w-full max-w-[80%] mx-auto">
           <img 
-            src="/Images/Traveller 1.png" 
+            src={`${process.env.PUBLIC_URL}/Images/Traveller 1.png`}
             alt="Traveller" 
             className="w-full h-auto"
           />
