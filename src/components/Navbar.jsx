@@ -12,7 +12,7 @@ function Navbar() {
       <nav className="max-w-[90.5rem] mx-auto flex items-center justify-between px-8 py-4 mt-2 sm:mt-4 md:mt-6 lg:mt-8 absolute top-0 left-0 right-0 z-50 bg-transparent">
         {/* Logo - Always visible */}
         <div className="flex-1 flex justify-start">
-          <img src="/Images/Logo.png" alt="Logo" className="h-8 md:h-auto" />
+          <img src={`${process.env.PUBLIC_URL}/Images/Logo.png`} alt="Logo" className="h-8 md:h-auto" />
         </div>
 
         {/* Navigation Links - Hidden on small/medium screens */}
