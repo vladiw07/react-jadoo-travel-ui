@@ -5,7 +5,7 @@ function Hero() {
     <section className="relative mt-4 sm:mt-6 md:mt-0 pt-16 md:pt-24 lg:pt-32 pb-16 md:pb-24 lg:pb-32 overflow-hidden min-h-[650px] md:min-h-[700px] lg:min-h-[800px] xl:min-h-[900px]">
       {/* Background decor - hidden on small screens, visible and responsive on larger screens */}
       <img
-        src={`${process.env.PUBLIC_URL}/images/Decore.png`}
+        src={`${process.env.PUBLIC_URL}/Images/Decore.png`}
         className="hidden md:block absolute top-0 right-0 w-full max-w-[50%] lg:max-w-[70%] xl:max-w-[830px] h-auto z-20"
         alt="Decorative Background"
       />
