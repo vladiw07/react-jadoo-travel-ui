@@ -8,8 +8,8 @@ function Footer() {
         
         {/* Brand */}
         <div className="col-span-1">
-          <h2 className="text-[44px] font-medium font-poppins text-[#181E4B] mb-4">Jadoo.</h2>
-          <p className="text-[13px] max-w-xs font-poppins font-medium ">
+          <h2 className="text-[44px] font-medium font-poppins text-[#181E4B] mb-4 cursor-pointer">Jadoo.</h2>
+          <p className="text-[13px] max-w-xs font-poppins font-medium">
             Book your trip in minute, get full control for much longer.
           </p>
         </div>
@@ -18,40 +18,40 @@ function Footer() {
         <div>
           <h3 className="text-[21px] font-bold font-poppins text-[#080809] mb-4">Company</h3>
           <ul className="space-y-2 text-[18px] font-poppins font-medium">
-            <li>About</li>
-            <li>Careers</li>
-            <li>Desktop</li>
+            <li className="cursor-pointer hover:text-[#DF6951] transition-colors duration-300">About</li>
+            <li className="cursor-pointer hover:text-[#DF6951] transition-colors duration-300">Careers</li>
+            <li className="cursor-pointer hover:text-[#DF6951] transition-colors duration-300">Desktop</li>
           </ul>
         </div>
 
         <div>
           <h3 className="text-[21px] font-bold font-poppins text-[#080809] mb-4">Contact</h3>
           <ul className="space-y-2 text-[18px] font-poppins font-medium">
-            <li>Help/FAQ</li>
-            <li>Press</li>
-            <li>Affiliates</li>
+            <li className="cursor-pointer hover:text-[#DF6951] transition-colors duration-300">Help/FAQ</li>
+            <li className="cursor-pointer hover:text-[#DF6951] transition-colors duration-300">Press</li>
+            <li className="cursor-pointer hover:text-[#DF6951] transition-colors duration-300">Affiliates</li>
           </ul>
         </div>
 
         <div>
           <h3 className="text-[21px] font-bold font-poppins text-[#080809] mb-4">More</h3>
           <ul className="space-y-2 text-[18px] font-poppins font-medium">
-            <li>Airlinefees</li>
-            <li>Airline</li>
-            <li>Low fare tips</li>
+            <li className="cursor-pointer hover:text-[#DF6951] transition-colors duration-300">Airlinefees</li>
+            <li className="cursor-pointer hover:text-[#DF6951] transition-colors duration-300">Airline</li>
+            <li className="cursor-pointer hover:text-[#DF6951] transition-colors duration-300">Low fare tips</li>
           </ul>
         </div>
 
         {/* Social & Apps */}
         <div className="flex flex-col items-start gap-6">
           <div className="flex gap-4">
-            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:opacity-80 transition">
+            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:opacity-80 transition cursor-pointer hover:shadow-lg">
               <FaFacebookF className="text-[#14183E]" />
             </div>
-            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:opacity-80 transition">
+            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:opacity-80 transition cursor-pointer hover:shadow-lg">
               <FaInstagram className="text-[#14183E]" />
             </div>
-            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:opacity-80 transition">
+            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:opacity-80 transition cursor-pointer hover:shadow-lg">
               <FaTwitter className="text-[#14183E]" />
             </div>
           </div>
@@ -60,12 +60,12 @@ function Footer() {
             <img
               src={`${process.env.PUBLIC_URL}/Images/Google Play.png`}
               alt="Google Play"
-              className="h-[35px] w-[105px]"
+              className="h-[35px] w-[105px] cursor-pointer hover:opacity-80 transition"
             />
             <img
               src={`${process.env.PUBLIC_URL}/Images/Play Store.png`}
               alt="App Store"
-              className="h-[35px] w-[105px]"
+              className="h-[35px] w-[105px] cursor-pointer hover:opacity-80 transition"
             />
           </div>
         </div>
