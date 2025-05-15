@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-            
+                
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -17,18 +17,18 @@ function Navbar() {
 
         {/* Navigation Links - Hidden on small/medium screens */}
         <ul className="hidden lg:flex gap-14 text-gray-700 font-medium justify-center">
-          <li className="hover:text-yellow-500 cursor-pointer">Destinations</li>
-          <li className="hover:text-yellow-500 cursor-pointer">Hotels</li>
-          <li className="hover:text-yellow-500 cursor-pointer">Flights</li>
-          <li className="hover:text-yellow-500 cursor-pointer">Bookings</li>
+          <li className="hover:text-yellow-500 cursor-pointer transition-colors duration-300">Destinations</li>
+          <li className="hover:text-yellow-500 cursor-pointer transition-colors duration-300">Hotels</li>
+          <li className="hover:text-yellow-500 cursor-pointer transition-colors duration-300">Flights</li>
+          <li className="hover:text-yellow-500 cursor-pointer transition-colors duration-300">Bookings</li>
         </ul>
 
         {/* Buttons - Hidden on small/medium screens */}
         <div className="hidden lg:flex flex-1 justify-end gap-6">
-          <button className="border border-gray-400 px-4 py-2 rounded-md hover:bg-gray-100 transition">
+          <button className="border border-[#5E6282] px-5 py-2 rounded-md text-[#5E6282] hover:bg-[#5E6282] hover:text-white transition-all duration-300 font-medium">
             Log in
           </button>
-          <button className="border border-gray-400 px-4 py-2 rounded-md hover:bg-gray-100 transition">
+          <button className="bg-[#F1A501] text-white px-5 py-2 rounded-md hover:bg-[#DF6951] hover:shadow-md transition-all duration-300 font-medium">
             Sign up
           </button>
 
@@ -71,24 +71,24 @@ function Navbar() {
           
           <ul className="flex flex-col space-y-6">
             <li className="py-2 border-b border-gray-100">
-              <a href="#" className="text-[#212832] text-lg font-medium hover:text-[#DF6951]">Destinations</a>
+              <a href="#" className="text-[#212832] text-lg font-medium hover:text-[#DF6951] transition-colors duration-300">Destinations</a>
             </li>
             <li className="py-2 border-b border-gray-100">
-              <a href="#" className="text-[#212832] text-lg font-medium hover:text-[#DF6951]">Hotels</a>
+              <a href="#" className="text-[#212832] text-lg font-medium hover:text-[#DF6951] transition-colors duration-300">Hotels</a>
             </li>
             <li className="py-2 border-b border-gray-100">
-              <a href="#" className="text-[#212832] text-lg font-medium hover:text-[#DF6951]">Flights</a>
+              <a href="#" className="text-[#212832] text-lg font-medium hover:text-[#DF6951] transition-colors duration-300">Flights</a>
             </li>
             <li className="py-2 border-b border-gray-100">
-              <a href="#" className="text-[#212832] text-lg font-medium hover:text-[#DF6951]">Bookings</a>
+              <a href="#" className="text-[#212832] text-lg font-medium hover:text-[#DF6951] transition-colors duration-300">Bookings</a>
             </li>
           </ul>
           
           <div className="mt-10 flex flex-col space-y-4">
-            <button className="w-full bg-white border border-gray-400 px-4 py-3 rounded-md hover:bg-gray-100 transition text-[#212832] font-medium">
+            <button className="w-full border border-[#5E6282] px-4 py-3 rounded-md text-[#5E6282] hover:bg-[#5E6282] hover:text-white transition-all duration-300 font-medium">
               Log in
             </button>
-            <button className="w-full bg-[#F1A501] text-white px-4 py-3 rounded-md hover:bg-[#e09600] transition font-medium">
+            <button className="w-full bg-[#F1A501] text-white px-4 py-3 rounded-md hover:bg-[#DF6951] hover:shadow-md transition-all duration-300 font-medium">
               Sign up
             </button>
             
