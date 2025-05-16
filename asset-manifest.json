@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-jadoo-travel-ui/static/css/main.195e639c.css",
-    "main.js": "/react-jadoo-travel-ui/static/js/main.eaca3ec4.js",
-    "index.html": "/react-jadoo-travel-ui/index.html",
-    "main.195e639c.css.map": "/react-jadoo-travel-ui/static/css/main.195e639c.css.map",
-    "main.eaca3ec4.js.map": "/react-jadoo-travel-ui/static/js/main.eaca3ec4.js.map"
+    "main.css": "/static/css/main.195e639c.css",
+    "main.js": "/static/js/main.1a64c4dd.js",
+    "index.html": "/index.html",
+    "main.195e639c.css.map": "/static/css/main.195e639c.css.map",
+    "main.1a64c4dd.js.map": "/static/js/main.1a64c4dd.js.map"
   },
   "entrypoints": [
     "static/css/main.195e639c.css",
-    "static/js/main.eaca3ec4.js"
+    "static/js/main.1a64c4dd.js"
   ]
 }
